@@ -1,7 +1,7 @@
 {
   "global": {
     "enabled": true,
-    "vein_size_multiplier": 0.85,
+    "vein_size_multiplier": 0.75,
     "attempt_multiplier": 1.0,
     "nether_generation_enabled": true,
     "auto_discover_modded_ores": true,
@@ -149,7 +149,7 @@
       "attempts": 1,
       "min_y": -8,
       "max_y": 80,
-      "dimension": "overworld"
+      "dimension": "ad_astra:glacio"
     },
     "oritech:endstone_platinum_ore": {
       "enabled": true,
@@ -176,7 +176,7 @@
       "attempts": 1,
       "min_y": -48,
       "max_y": 0,
-      "dimension": "overworld"
+      "dimension": "ad_astra:mars"
     },
     "oritech:deepslate_platinum_ore": {
       "enabled": true,
@@ -192,7 +192,7 @@
       "attempts": 1,
       "min_y": -24,
       "max_y": 72,
-      "dimension": "overworld"
+      "dimension": "ad_astra:glacio"
     },
     "create:zinc_ore": {
       "enabled": true,
@@ -203,7 +203,7 @@
       "dimension": "overworld"
     },
     "ad_astra:deepslate_ice_shard_ore": {
-      "enabled": true,
+      "enabled": false,
       "vein_size": 20,
       "attempts": 1,
       "min_y": -64,
@@ -219,7 +219,7 @@
       "dimension": "overworld"
     },
     "ad_astra:glacio_ice_shard_ore": {
-      "enabled": true,
+      "enabled": false,
       "vein_size": 24,
       "attempts": 1,
       "min_y": -24,
@@ -232,10 +232,10 @@
       "attempts": 1,
       "min_y": -24,
       "max_y": 72,
-      "dimension": "overworld"
+      "dimension": "ad_astra:mars"
     },
     "ad_astra:moon_ice_shard_ore": {
-      "enabled": true,
+      "enabled": false,
       "vein_size": 24,
       "attempts": 1,
       "min_y": -24,
@@ -243,7 +243,7 @@
       "dimension": "overworld"
     },
     "ad_astra:deepslate_ostrum_ore": {
-      "enabled": true,
+      "enabled": false,
       "vein_size": 20,
       "attempts": 1,
       "min_y": -64,
@@ -256,7 +256,7 @@
       "attempts": 1,
       "min_y": -24,
       "max_y": 72,
-      "dimension": "overworld"
+      "dimension": "ad_astra:mars"
     },
     "ad_astra:glacio_coal_ore": {
       "enabled": true,
@@ -264,7 +264,7 @@
       "attempts": 1,
       "min_y": -24,
       "max_y": 72,
-      "dimension": "overworld"
+      "dimension": "ad_astra:glacio"
     },
     "create_new_age:thorium_ore": {
       "enabled": true,
@@ -280,7 +280,7 @@
       "attempts": 1,
       "min_y": -24,
       "max_y": 72,
-      "dimension": "overworld"
+      "dimension": "ad_astra:venus"
     },
     "oritech:deepslate_nickel_ore": {
       "enabled": true,
@@ -296,7 +296,7 @@
       "attempts": 1,
       "min_y": -24,
       "max_y": 72,
-      "dimension": "overworld"
+      "dimension": "ad_astra:moon"
     },
     "oritech:nickel_ore": {
       "enabled": true,
@@ -307,7 +307,7 @@
       "dimension": "overworld"
     },
     "ad_astra:deepslate_desh_ore": {
-      "enabled": true,
+      "enabled": false,
       "vein_size": 20,
       "attempts": 1,
       "min_y": -64,
@@ -320,7 +320,7 @@
       "attempts": 1,
       "min_y": -24,
       "max_y": 72,
-      "dimension": "overworld"
+      "dimension": "ad_astra:venus"
     },
     "createpropulsion:platinum_ore": {
       "enabled": false,
@@ -336,7 +336,7 @@
       "attempts": 1,
       "min_y": -24,
       "max_y": 72,
-      "dimension": "overworld"
+      "dimension": "ad_astra:moon"
     },
     "create:deepslate_zinc_ore": {
       "enabled": true,
@@ -352,7 +352,7 @@
       "attempts": 1,
       "min_y": -48,
       "max_y": 32,
-      "dimension": "overworld"
+      "dimension": "ad_astra:venus"
     },
     "ad_astra:glacio_lapis_ore": {
       "enabled": true,
@@ -360,7 +360,7 @@
       "attempts": 1,
       "min_y": -24,
       "max_y": 32,
-      "dimension": "overworld"
+      "dimension": "ad_astra:glacio"
     },
     "ad_astra:mars_ice_shard_ore": {
       "enabled": false,
@@ -376,7 +376,7 @@
       "attempts": 1,
       "min_y": -48,
       "max_y": 0,
-      "dimension": "overworld"
+      "dimension": "ad_astra:venus"  
     },
     "ad_astra:mercury_iron_ore": {
       "enabled": true,
@@ -384,10 +384,10 @@
       "attempts": 1,
       "min_y": -24,
       "max_y": 72,
-      "dimension": "overworld"
+      "dimension": "ad_astra:mercury"
     },
     "ad_astra:deepslate_calorite_ore": {
-      "enabled": true,
+      "enabled": false,
       "vein_size": 20,
       "attempts": 1,
       "min_y": -64,
@@ -400,7 +400,7 @@
       "attempts": 1,
       "min_y": -24,
       "max_y": 72,
-      "dimension": "overworld"
+      "dimension": "ad_astra:moon"
     }
   }
 }
